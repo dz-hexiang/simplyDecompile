@@ -1,6 +1,6 @@
 # simplyDecompile
 懒人反编译辅助脚本
-#####一、 利用本辅助工具编译
+##### 一、利用本辅助工具编译
 https://github.com/dz-hexiang/simplyDecompile
 本工具是利用apktool 和dex2jar进行反编译的。只是简化了步骤。
 
