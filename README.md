@@ -8,15 +8,15 @@ https://github.com/dz-hexiang/simplyDecompile
 > apktool 版本：2.3.3
 d2j-dex2jar 版本：dex2jar-2.0
 
+
  步骤：
- 1.把apk拷贝到apk文件夹下
+ 1.把apk拷贝到根目录apk文件夹下（没有apk文件夹就创建个）
  2.双击decompile.bat
  3.输入apk的文件没名字按回车（输入几个字母按tab键会自动补全）
 
 附：
->  没有apk文件夹就手动建个
 >  编译后会用jd-gui自行打开反编译后的jar文件。
->  反编译后的jar和资源在apk文件夹
+>  反编译后的`jar和资源在apk下对应的文件夹`
 
 
 
