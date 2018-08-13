@@ -1,0 +1,33 @@
+#####一、 利用本辅助工具编译
+本工具是利用apktool 和dex2jar进行反编译的。只是简化了步骤，省了输入
+命令环节
+
+> apktool 版本：2.3.3
+d2j-dex2jar 版本：dex2jar-2.0
+
+ 步骤：
+ 1.把apk拷贝到apk文件夹下
+ 2.双击decompile.bat
+ 3.输入apk的文件没名字按回车（输入几个字母按tab键会自动补全）
+
+附：
+>  没有apk文件夹就在根目录手动建个
+>  编译后会用jd-gui自行打开反编译后的jar文件。
+>  反编译后的jar和资源在apk文件夹
+
+
+
+##### 二、 手动编译
+apktool 
+https://ibotpeaches.github.io/Apktool/install/
+使用命令
+```
+d2j-dex2jar -f ~/path/to/apk_to_decompile.apk
+```
+
+dex2jar
+https://github.com/pxb1988/dex2jar
+使用命令
+```
+apktool d testapp.apk
+```
